@@ -1,0 +1,149 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ----------START NAV BAR SECTION--------------------------- */
+
+nav { 
+    width: 100%;
+    height: 24%;
+}
+
+.Nav-Container{ /*Parent of header nav*/
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 0 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    background-image: linear-gradient(to bottom right, #9ddee0, #acb1e6, #ffcff5, #ebed5c);
+}
+
+.Logo{
+   height: 65%;
+   width: 100%;
+}
+
+.Navigation{
+    height: 35%;
+    width: 100%;
+}
+
+nav img {
+    height: 100px;
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    top: 77%;
+}
+
+/* -------FINISH NAVBAR SECTION-------------------- */
+
+
+
+/* ----------START NAV BAR SECTION--------------------------- */
+
+
+.form-contact-container{
+height: 100%;
+width: 100%;
+background-color: #333;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-image: linear-gradient(to bottom right, #9ddee0, #acb1e6, #ffcff5, #ebed5c);
+}
+
+.form-container{
+    width: 59%;
+    height: auto;
+    padding: 20px;
+    border: 4px solid #e1e1e1;
+    background-image: linear-gradient(to bottom right, #90e9ec, #929ae5, #d092c3, #b4b628);
+}
+
+
+.form-container h2 {
+    text-align: center;
+  }
+
+
+.form-container input,
+.form-container textarea {
+      width: 73%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+
+.form-container input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+.form-container button:hover {
+    background-color: #45a049;
+  }
+
+
+.first-checkbox{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+  }
+
+.the-checkbox-input{
+    height: 10%;
+  }
+
+.terms-of-policy{
+    height: 10%;
+  }
+

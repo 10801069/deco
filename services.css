@@ -1,0 +1,196 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ----------START NAV BAR SECTION--------------------------- */
+
+nav { 
+    width: 100%;
+    height: 24%;
+}
+
+.Nav-Container{ /*Parent of header nav*/
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 0 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    background-image: linear-gradient(to bottom right, #9ddee0, #acb1e6, #ffcff5, #ebed5c);
+}
+
+.Logo{
+   height: 65%;
+   width: 100%;
+}
+
+.Navigation{
+    height: 35%;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: end; */
+    /* position: absolute;
+    bottom: 0;
+    right: 0; */
+}
+
+nav img {
+    height: 100px;
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    top: 77%;
+}
+
+/* -------FINISH NAVBAR SECTION-------------------- */
+
+
+/* -------START INTRODUCTION TO THE HOMEPAGE-------------------- */
+section{
+    height: 93%;
+}
+
+.Greeting-Section{ /*Parent*/
+    width: 100%;
+    height: 100%;
+}
+
+.Intro-Images{
+    height: 52%;
+}
+
+.Design-Images{
+    width: 100%;
+    height: 400px;
+}
+
+/* ---------------------------- */
+
+.Greeting-Text{ /*Parent*/
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(to bottom right, #ebed5c, #ffcff5, #acb1e6,#9ddee0 );
+}
+
+.Greeting-Header{
+    height: 30%;
+}
+
+.Welcome{
+    padding: 49px 0 21px 0;
+    letter-spacing: 5px;
+}
+
+.Greeting-Strings{
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    right: 16%;
+}
+
+
+.Random-Text{
+padding: 0 6px 0 6px;
+line-height: 1.4;
+font-size: 22px;
+}
+
+.Get-In-Touch-Container{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Get-In-Touch-Btn{
+    width: 104px;
+    height: 42px;
+    border: none;
+    border-radius: 19px;
+}
+
+a, button{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/* --------FINISH INTRODUCTION TO THE HOMEPAGE-------------------- */
+
+
+footer{
+    height: 39%;
+}
+
+.Footer-Container{
+    height: 100%;
+    background-image: linear-gradient(-90deg, #9ddee0, #acb1e6, #ffcff5,#ebed5c, #9ddee0);
+}
+
+.Display-Half{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-Pic-Container{
+    width: 50%;
+}
+
+.Footer-Pic{
+    margin: 0 0 0 4em;
+}
+
+.Company-Info{
+    width: 50%;
+    height: 85%;
+}
+
+.Info{
+    margin-right: 2em;
+    text-align: end;
+    line-height: 3.5em;
+}
+
+.Info:hover{
+color: #57483B;
+}
+
+.Social-Media{
+    display: flex;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1em;
+}

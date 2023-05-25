@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../CSS.code/calculator.css">
+    <script src="../JAVASCRIPT code/calculator.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="Nav-Container">
+        <div class="Logo">
+		<img src="../PICTURES/logo.png" alt="Logo">
+        </div>
+        <div class="Navigation">
+		<ul>
+			<li><a href="homepage.html">Home</a></li>
+			<li><a href="decorating.html">Decorating</a></li>
+			<li><a href="wallpapering.html">Wallpapering</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="calculator.html">Calculator</a></li>
+			<li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="aboutUs.html">About us</a></li>
+		</ul>
+    </div>
+</div>
+	</nav>
+
+    <div class="the-big-container">
+    <div class="calculator-container">
+        <div class="header-calculator">
+            <h1>Paint Calculator</h1>
+        </div>
+        <div class="room-measurements">
+        <div class="input-group">
+            <label for="roomWidth">Room Width:</label>
+            <input type="text" id="roomWidth">
+        </div>
+        <div class="input-group">
+            <label for="roomHeight">Room Height:</label>
+            <input type="text" id="roomHeight">
+        </div>
+    </div>
+    <div class="excluded-dim-header">
+        <h2>Excluded Dimensions</h2>
+    </div>
+    <div class="excluded-dimensions">
+        <div class="input-group">
+            <label for="excludedWidth">Excluded Width:</label>
+            <input type="text" id="excludedWidth">
+        </div>
+        <div class="input-group">
+            <label for="excludedHeight">Excluded Height:</label>
+            <input type="text" id="excludedHeight">
+        </div>
+    </div>
+    <div class="excluded-doors-header">
+        <h2>Excluded Doors</h2>
+    </div>
+    <div class="door-measurements">
+        <div class="input-group">
+            <label for="doorWidth">Door Width:</label>
+            <input type="text" id="doorWidth">
+        </div>
+        <div class="input-group">
+            <label for="doorHeight">Door Height:</label>
+            <input type="text" id="doorHeight">
+        </div>
+    </div>
+    <div class="add-walls-header">
+        <h2>Additional Walls</h2>
+    </div>
+        <div id="wallRows">
+            <div class="input-group">
+                <label for="wallWidth">Wall Width:</label>
+                <input type="text" name="wallWidth">
+                <label for="wallHeight" style="margin-left: 2em;">Wall Height:</label>
+                <input type="text" name="wallHeight">
+            </div>
+        </div>
+        <br>
+        <button id="addWallButton" onclick="addWallRow() ">Add Wall</button>
+        <div class="coats-of-paint-header">
+            <h2>Coats of Paint</h2>
+        </div>
+        <div class="coats-of-paint-measurements">
+        <div class="input-group">
+            <label for="coatOfPaint">Coat of Paint:</label>
+            <select id="coatOfPaint">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+    </div>
+        <button onclick="calculatePaintNeeded()">Calculate</button>
+        <div class="result">
+            <p>Total Area: <span id="totalArea"></span> square units</p>
+            <p>Total Liters of Paint Needed: <span id="totalLiters"></span> liters</p>
+        </div>
+    </div>
+</div>
+
+<div class="the-other-con"></div>
+
+
+<footer>
+    <div class="Footer-Container">
+        <div class="Display-Half">
+        <div class="Footer-Pic-Container">
+            <img src="../PICTURES/footer-pic.png" width="150" height="auto" class="Footer-Pic">
+        </div>
+        <div class="Company-Info">
+            <p class="Info">Company: SplashU</p>
+            <address class="Info">Address: 42, Southern Terrace</address>
+            <p class="Info">Phone number: +47570692417</p>
+            <p class="Info">Email address: sofrondelia2019@gmail.com</p>
+        </div>
+    </div>
+        <div class="Social-Media">
+            <a href="https://www.facebook.com/"><img src="../PICTURES/facebook.png" width="50" height="auto"></a>
+            <a href="https://www.instagram.com/"><img src="../PICTURES/instagram.png" width="50" height="auto"></a>
+            <a href="https://twitter.com/i/flow/login"><img src="../PICTURES/twitter (1).png" width="50" height="auto"></a>
+            <a href="https://web.telegram.org/a/"><img src="../PICTURES/telegram.png" width="50" height="auto"></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

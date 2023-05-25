@@ -1,0 +1,342 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ----------START NAV BAR SECTION--------------------------- */
+
+nav { 
+    width: 100%;
+    height: 24%;
+}
+
+.Nav-Container{ /*Parent of header nav*/
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 0 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    background-image: linear-gradient(to bottom right, #9ddee0, #acb1e6, #ffcff5, #ebed5c);
+}
+
+.Logo{
+   height: 65%;
+   width: 100%;
+}
+
+.Navigation{
+    height: 35%;
+    width: 100%;
+}
+
+nav img {
+    height: 100px;
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    top: 77%;
+}
+
+/* -------FINISH NAVBAR SECTION-------------------- */
+
+
+/* -------START INTRODUCTION TO THE HOMEPAGE-------------------- */
+section{
+    height: 93%;
+}
+
+.Greeting-Section{ /*Parent*/
+    width: 100%;
+    height: 100%;
+}
+
+.Intro-Images{
+    height: 52%;
+}
+
+.Design-Images{
+    width: 100%;
+    height: 400px;
+}
+
+/* ---------------------------- */
+
+.Greeting-Text{ /*Parent*/
+    width: 100%;
+    height: 48%;
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(to bottom right, #ebed5c, #ffcff5, #acb1e6,#9ddee0 );
+}
+
+.Greeting-Header{
+    height: 30%;
+}
+
+h1{
+    padding: 49px 0 21px 0;
+    letter-spacing: 5px;
+}
+
+.Greeting-Strings{
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    right: 16%;
+}
+
+
+.Random-Text{
+padding: 0 6px 0 6px;
+line-height: 1.4;
+font-size: 22px;
+}
+
+/* --------FINISH INTRODUCTION TO THE HOMEPAGE-------------------- */
+
+
+/* --------START INTRODUCTION TO THE SERVICES WITH PICTURES-------------------- */
+
+/* --------PAINTING PART-------------------- */
+.Home-Painting{ /*Parent*/
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(to bottom left, #9ddee0, #acb1e6, #ffcff5,#ebed5c );
+}
+
+.Painting-Part{
+    height: 100%;
+    position: relative;
+}
+
+.Painting-Pic-Container{
+    width: 100%;
+    height: 50%;
+}
+
+.Painting-Pictures{
+    width: 500px;
+    height: 310px;
+}
+
+.Painting-Expla-Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Painting-Para-Container{
+    width: 60%;
+    font-size: 22px;
+}
+
+
+/* ----------------------------------------- */
+
+/* -------------PROPERTIES USED IN PAINTING AND DECORATING--------------------------- */
+
+
+button{
+    width: 99px;
+    height: 41px;
+    border-radius: 2;
+    border-radius: 16px;
+    border: none;
+    background: pink;
+}
+
+.Button{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.See-More-Btn{
+    width: 100%;
+    height: auto;
+    padding-top: 2em;
+}
+
+/* -----------ENDS HERE COMPATIBLE CLASSES----------------------------------------- */
+
+
+/* ------------------DECORATING PART------------------------------- */
+
+
+.Home-Decorating{ /*Parent*/
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #ebed5c, #ffcff5, #acb1e6,#9ddee0 );
+}
+
+.Decorating-Part{
+    height: 100%;
+    position: relative;
+}
+
+.Decorating-Pic-Container{
+    width: 100%;
+    height: 50%;
+}
+
+.Decorating-Pictures{
+    width: 500px;
+    height: 310px;
+}
+
+.Decorating-Expla-Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Decorating-Para-Container{
+    width: 60%;
+    font-size: 22px;
+}
+/* ----------------------ENDS HERE THE DECORATING PART------------------------------- */
+
+
+/* --------FINISH INTRODUCTION TO THE SERVICES WITH PICTURES-------------------- */
+
+
+/* ---------------------HERE STARTS THE VIDEO PORTION---------------------------------- */
+
+.Home-Video{
+    height: 100%;
+    background-image: linear-gradient(to bottom left, #9ddee0, #acb1e6, #ffcff5,#ebed5c );
+}
+
+.Video-Part{
+height: 50%;
+text-align: center;
+}
+
+/* ---------------------FINISHES THE VIDEO PORTION---------------------------------- */
+
+
+/* ---------------------HERE STARTS THE TEXT BOXES PORTION---------------------------------- */
+
+.Text-Boxes{
+    height: 50%;
+    overflow: hidden;
+    display: flex;
+    column-gap: 7%; 
+    justify-content: center;
+    align-items: center;
+    /* These 2 properties makes the text be displayed in the middle of a div */
+    text-align: center;
+    line-height: 9em;
+}
+
+
+.Estimates-Box{
+    display: inline-block;
+    width: 20%;
+    height: 40%;
+    border: 1px solid #ffffff;
+    margin-left: 3em;
+}
+
+.Reviews-Box{
+    display: inline-block;
+    width: 20%;
+    height: 40%;
+    border: 1px solid #fef7f7;
+}
+
+.Guarantee-Box{
+    display: inline-block;
+    width: 20%;
+    height: 40%;
+    border: 1px solid #e8e2e2;
+    margin-right: 3em;
+}
+
+/* ---------------------HERE ENDS THE TEXT BOXES PORTION---------------------------------- */
+
+
+/* ---------------------HERE STARTS THE FOOTER PORTION---------------------------------- */
+
+footer{
+    height: 39%;
+}
+
+.Footer-Container{
+    height: 100%;
+    border-top: 1px solid #b7a3a3;
+    background-image: linear-gradient(-90deg, #9ddee0, #acb1e6, #ffcff5,#ebed5c, #9ddee0);
+    
+}
+
+.Display-Half{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-Pic-Container{
+    width: 50%;
+}
+
+.Footer-Pic{
+    margin: 0 0 0 4em;
+}
+
+.Company-Info{
+    width: 50%;
+    height: 85%;
+}
+
+.Info{
+    margin-right: 2em;
+    text-align: end;
+    line-height: 3.5em;
+}
+
+.Info:hover{
+color: #57483B;
+}
+
+.Social-Media{
+    display: flex;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1em;
+}
